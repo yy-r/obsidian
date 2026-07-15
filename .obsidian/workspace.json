@@ -128,7 +128,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语言模型与Transformer.md",
+                "file": "day1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "语言模型与Transformer 的大纲"
+              "title": "day1 的大纲"
             }
           },
           {
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -196,8 +196,8 @@
   },
   "active": "6f77af500171368f",
   "lastOpenFiles": [
-    "README.md",
     "day1.md",
+    "README.md",
     "未命名.canvas",
     "未命名.base"
   ]
