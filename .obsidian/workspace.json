@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -194,10 +194,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b16cba2fb3c882df",
+  "active": "4ea53b083a907554",
   "lastOpenFiles": [
-    "day1.md",
+    "Pasted image 20260715163810.png",
     "README.md",
+    "day1.md",
     "未命名.canvas",
     "未命名.base"
   ]
