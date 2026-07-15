@@ -36,3 +36,4 @@ $\boldsymbol{a_p}$与三个可学习的权重矩阵${\boldsymbol{W}^{Q},\boldsym
 - $\boldsymbol{K}_a$我是谁
 - $\boldsymbol{V}_a$我的值是什么
 
+学习Transformer
