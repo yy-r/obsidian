@@ -35,4 +35,11 @@ $\boldsymbol{a_p}$与三个可学习的权重矩阵${\boldsymbol{W}^{Q},\boldsym
 - $\boldsymbol{Q}_a$我想找什么，查询
 - $\boldsymbol{K}_a$我是谁，键
 - $\boldsymbol{V}_a$我的值是什么，值
- $\boldsymbol{Q}_a$要与$(\boldsymbol{K}_a^{T},\boldsymbol{K}_b^{T},....)$相乘，得到值权重$(w_{a,a},w_{a,b},...)$这是一条行向量
+ $\boldsymbol{Q}_a$要与$(\boldsymbol{K}_a^{T},\boldsymbol{K}_b^{T},....)$相乘，再经过放缩和$\mathsf{softmax}$得到值权重$(w_{a,a},w_{a,b},...)$这是一条行向量，这条行向量与值矩阵相乘$$(w_{a,a},w_{a,b},...) \cdot \begin{pmatrix}
+
+\boldsymbol{V}_a \\
+
+\boldsymbol{V}_b \\
+\vdots
+
+\end{pmatrix}$$,相当于让每个词的值向量加权求和，得到一个行向量，这个就是$\boldsymbol{a_p}$代表的词看到了其他词后对自己语义的更新，就相当与更新了自己的词嵌入，使其更符合现实语义了
