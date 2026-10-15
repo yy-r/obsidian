@@ -29,7 +29,7 @@
               "state": {
                 "file": "day1.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "day1"
