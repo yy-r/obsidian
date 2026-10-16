@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "day1"
             }
+          },
+          {
+            "id": "c7376c72d44d0979",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.14.4"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -211,7 +223,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "027e9383bff626ee",
+  "active": "c7376c72d44d0979",
   "lastOpenFiles": [
     "Pasted image 20260715163810.png",
     "Pasted image 20260716101049.png",
